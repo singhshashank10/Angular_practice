@@ -8,9 +8,9 @@ describe('ChildData2Component', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChildData2Component ]
+      declarations: [ChildData2Component]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(ChildData2Component);
     component = fixture.componentInstance;

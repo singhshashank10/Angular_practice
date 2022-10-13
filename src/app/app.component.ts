@@ -29,4 +29,10 @@ export class AppComponent {
     { name: "Aakarshit Giri", email: 'akar@tet.com' },
   ]
 
+  childData: any = " ";
+  getChildData(item: string) {
+    console.warn(item)
+    this.childData = item;
+  }
+
 }

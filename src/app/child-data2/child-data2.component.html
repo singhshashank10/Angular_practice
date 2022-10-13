@@ -1,1 +1,3 @@
-<p>child-data2 works!</p>
+<h2>Emmit data from child component and use in parent component</h2>
+<input type="text" #box placeholder="Enter the sentence" />
+<button (click)="getDataEvent.emit(box.value)">Let's Update Data</button>

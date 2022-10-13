@@ -16,3 +16,11 @@ button:hover {
     color: rgb(136, 35, 35);
     border: 0.5px solid rgb(103, 102, 102);
 }
+
+input {
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    min-width: 20rem;
+    display: block;
+    margin-bottom: .5rem;
+}

@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+    background-color: rgb(187, 110, 9);
+    color: rgb(254, 213, 159);
+    border: 2px solid black;
+}
+
+button {
+    background-color: antiquewhite;
+    color: brown;
+    border: 0.5px solid grey;
+}
+
+button:hover {
+    background-color: rgba(250, 235, 215, 0.855);
+    color: rgb(136, 35, 35);
+    border: 0.5px solid rgb(103, 102, 102);
+}

@@ -32,3 +32,18 @@
 
 <h1>Th2 data is here: {{childData}}</h1>
 <app-child-data2 (getDataEvent)="getChildData($event)"></app-child-data2>
+
+
+<h1>Two way Binding</h1>
+<h1>The text is Here: {{name_for_2way}}</h1>
+<h2>To display any property & update it at same time</h2>
+<input type="text" [(ngModel)]="name_for_2way">
+
+
+<h1>Template Referance Variables: ('#anything')</h1>
+<h2>{{ItemDataName}}</h2>
+<input type="text" #boxReferanceVariable name="name_Box" placeholder="Enter the User Name ">
+<button (click)="getDataNameBox(boxReferanceVariable.value)">Click here to update</button>
+
+<h1>Template Form</h1>
+<app-form></app-form>

@@ -1,0 +1,6 @@
+<h2>Template form is form whose handeling is done in the template region or .html page</h2>
+<form #login="ngForm" (ngSubmit)=userLogin(login.value)>
+    <input type="text" name="Username" placeholder="Enter your user name" ngModel>
+    <input type="password" name="Password" placeholder="Enter ypur Password" ngModel>
+    <button>login</button>
+</form>

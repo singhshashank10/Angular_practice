@@ -35,4 +35,12 @@ export class AppComponent {
     this.childData = item;
   }
 
+  name_for_2way: any;
+
+  ItemDataName: any = "hello"
+  getDataNameBox(itemDataName: any) {
+    console.log(itemDataName);
+    this.ItemDataName = itemDataName;
+
+  }
 }

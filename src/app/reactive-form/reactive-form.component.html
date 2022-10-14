@@ -1,0 +1,8 @@
+<h2>The reactive form is the form whose handeling is done in the class section of the component</h2>
+<p>The reactive form takes 'RectiveFormModule' import in module of component & takes 'FormControlName, FormGroup' import
+    in ts file</p>
+<form [formGroup]="loginForm" (ngSubmit)="userReactiveLogin()">
+    <input type="text" placeholder="Enter the user name" FormControlName="userName">
+    <input type="password" name="password" placeholder="Enter the password" FormControlName="password">
+    <button>Login</button>
+</form>

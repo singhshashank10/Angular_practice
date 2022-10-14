@@ -8,7 +8,9 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 import { ChildData2Component } from './child-data2/child-data2.component';
 
 import { FormsModule } from '@angular/forms';
-import { FormComponent } from './form/form.component'
+import { FormComponent } from './form/form.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { ReactiveFormsModule } from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,10 +19,12 @@ import { FormComponent } from './form/form.component'
     UserDetailsComponent,
     ChildData2Component,
     FormComponent,
+    ReactiveFormComponent,
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

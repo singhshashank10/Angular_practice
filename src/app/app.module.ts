@@ -10,7 +10,8 @@ import { ChildData2Component } from './child-data2/child-data2.component';
 import { FormsModule } from '@angular/forms';
 import { FormComponent } from './form/form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
-import { ReactiveFormsModule } from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms';
+import { RedElDirective } from './directive/red-el.directive'
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms'
     ChildData2Component,
     FormComponent,
     ReactiveFormComponent,
+    RedElDirective,
   ],
   imports: [
     BrowserModule,

@@ -2,7 +2,10 @@
 <p>The reactive form takes 'RectiveFormModule' import in module of component & takes 'FormControlName, FormGroup' import
     in ts file</p>
 <form [formGroup]="loginForm" (ngSubmit)="userReactiveLogin()">
-    <input type="text" placeholder="Enter the user name" FormControlName="userName">
+    <input type="text" placeholder="Enter your name" FormControlName="name">
+    <input type="text" name="userName" placeholder="Enter the user name" FormControlName="userName">
+    <!-- <span *ngIf="userName && userName.invalid" ; style="color: red">This field is required</span> -->
+    <input type="text" placeholder="Enter your Email" FormControlName="email">
     <input type="password" name="password" placeholder="Enter the password" FormControlName="password">
     <button>Login</button>
 </form>
